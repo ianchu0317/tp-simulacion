@@ -246,7 +246,7 @@ Se obtuvieron los gráficos de las posiciones en función del tiempo para las si
 A primera vista podemos tratar el movimiento similar a un movimiento oscilatorio. 
 
 
-Se puede en los casos de $dt=0.001$ y $dt=0.01$ se diferencian por la cantidad de desplazamiento en un mismo lapso de tiempo. Podemos comparar los gráficos en la parte de la segunda intersección entre posición X (rojo) y la posición Y (celeste) de la partícula en ambos gráficos y observamos que en el caso de $dt=0.01$ tiene un periodo de oscilación más en la posición de eje X (si tratamos el gráfico como una onda). 
+Se puede ver que en los casos de $dt=0.001$ y $dt=0.01$ se diferencian por la cantidad de desplazamiento en un mismo lapso de tiempo. Podemos comparar los gráficos en la parte de la segunda intersección entre posición X (rojo) y la posición Y (celeste) de la partícula en ambos gráficos y observamos que en el caso de $dt=0.01$ tiene un periodo de oscilación más en la posición de eje X (si tratamos el gráfico como una onda). 
 
 En cambio, un caso particular fue el caso de $dt=0.1$ para la misma función introducida para \texttt{ax= -posx **3 + posx **2 + 1}. Donde el programa encuentra un error poco después de los 3 segundos transcurridos de la simulación. Esto sucede debido a que los valores excedieron la capacidad de almacenamiento permitida para los variables del lenguaje del programación, que en este caso es Python 2. Así mismo podemos observarlo visualmente en el gráfico: se puede observar que mientras que en el posición del eje Y mantiene su curso natural, en las posiciones de eje X se dispara a un valor muy grande haciendo detener el programa.
 
